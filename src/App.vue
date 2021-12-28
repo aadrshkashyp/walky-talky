@@ -13,19 +13,18 @@
 
 
 <script>
-
-import { auth } from './firebase'
-
-console.log(auth)
-
 export default {
   name: 'App',
   components: {
- 
   }
 }
 </script>
 
 <style>
-
+header {
+  text-align: center;
+}
+button, input {
+  margin-bottom: 10px;
+}
 </style>

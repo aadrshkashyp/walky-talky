@@ -3,6 +3,7 @@ import App from "./App.vue";
 import { firestorePlugin } from "vuefire";
 import VueRouter from "vue-router";
 import VueCompositionApi from "@vue/composition-api";
+import ChatRoom from "./components/ChatRoom";
 
 Vue.use(VueCompositionApi);
 Vue.use(VueRouter);
@@ -13,7 +14,10 @@ Vue.config.productionTip = false;
 import Home from "./components/Home";
 
 const router = new VueRouter({
-  routes: [{ path: "/", component: Home }],
+  routes: [
+    { path: "/", component: Home },
+    { path: "/chats/:id", component: ChatRoom, name: "chat" },
+  ],
 });
 
 new Vue({
