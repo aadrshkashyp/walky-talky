@@ -1,8 +1,24 @@
 <template>
   <main class="section">
-    <h3>Welcome to ChatRoom.vue {{ chatId }}</h3>
 
-    <router-link to="/">Back</router-link>
+      <div class="container mb-10 py-4 mx-auto">
+    <div class=" flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+         <div class="flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left text-center">
+      <h1 class="md:text-3xl text-2xl font-medium title-font text-gray-900">Welcome to ChatRoom </h1>
+       <h2 class="md:text-3xl text-2xl font-medium title-font text-gray-900">Chat Room ID: <span class="md:text-3xl text-2xl text-indigo-500 tracking-widest font-medium title-font mb-1"> {{ chatId }} </span> </h2>
+    </div>
+    </div>
+  </div>
+    <router-link to="/">    
+    
+       <a class="mt-3 mb-10 text-indigo-500 inline-flex items-center">
+              <svg style="-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+                         Back   
+         </a>
+    </router-link>
 
     <p>
     Open this link in another browser window to chat 
