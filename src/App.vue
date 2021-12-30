@@ -7,10 +7,14 @@
       <span class="ml-3 text-xl">WALKY TALKY</span>
     </a>
     <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-      <a class="mr-5 hover:text-gray-900">First Link</a>
-      <a class="mr-5 hover:text-gray-900">Second Link</a>
-      <a class="mr-5 hover:text-gray-900">Third Link</a>
-      <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+      <a class="font-semibold leading-none tracking-tighter text-neutral-600  hover:text-gray-900">Teachnologies Used</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+      <a class="mr-5 ml-5 hover:text-gray-900">Vue.js</a>
+      <a class="mr-5 hover:text-gray-900">Firebase</a>
+      <a class="mr-5 hover:text-gray-900">Bulma</a>
+      <a class="mr-5 hover:text-gray-900">Tailwind</a>
     </nav>
   </div>
 </header>
