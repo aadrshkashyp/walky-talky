@@ -1,5 +1,5 @@
 <template>
-  <button>thus us test</button>
+  
 
   <footer class="text-gray-600 body-font">
     <div
